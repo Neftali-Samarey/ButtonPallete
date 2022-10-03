@@ -12,6 +12,7 @@
 		EDC4B33B28EA89E500520F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC4B33A28EA89E500520F9F /* Assets.xcassets */; };
 		EDC4B33E28EA89E500520F9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC4B33D28EA89E500520F9F /* Preview Assets.xcassets */; };
 		EDC4B34728EA8AA300520F9F /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4B34628EA8AA300520F9F /* FavoriteView.swift */; };
+		EDC4B34A28EA949400520F9F /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4B34928EA949400520F9F /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EDC4B33A28EA89E500520F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDC4B33D28EA89E500520F9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDC4B34628EA8AA300520F9F /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		EDC4B34928EA949400520F9F /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				EDC4B33628EA89E200520F9F /* ButtonPalleteApp.swift */,
 				EDC4B33828EA89E200520F9F /* ContentView.swift */,
+				EDC4B34828EA945F00520F9F /* Extensions */,
 				EDC4B34428EA8A8A00520F9F /* Button Views */,
 				EDC4B33A28EA89E500520F9F /* Assets.xcassets */,
 				EDC4B33C28EA89E500520F9F /* Preview Content */,
@@ -84,6 +87,14 @@
 				EDC4B34628EA8AA300520F9F /* FavoriteView.swift */,
 			);
 			path = Favorite;
+			sourceTree = "<group>";
+		};
+		EDC4B34828EA945F00520F9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4B34928EA949400520F9F /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				EDC4B33928EA89E200520F9F /* ContentView.swift in Sources */,
 				EDC4B34728EA8AA300520F9F /* FavoriteView.swift in Sources */,
 				EDC4B33728EA89E200520F9F /* ButtonPalleteApp.swift in Sources */,
+				EDC4B34A28EA949400520F9F /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
